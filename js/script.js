@@ -45,3 +45,8 @@ for (let i = 0; i < paragraphs.length; i++) {
 }
 
 // Question 6
+
+const resultContainer = document.querySelector(".results");
+
+resultContainer.innerHTML = `<p>New paragraph</p>`;
+resultContainer.style.backgroundColor = "yellow";
