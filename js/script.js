@@ -21,3 +21,9 @@ function complain() {
 }
 
 cat();
+
+// Question 2
+
+const heading = document.querySelector("h3");
+
+heading.innerHTML = "Updated heading";
