@@ -50,3 +50,13 @@ const resultContainer = document.querySelector(".results");
 
 resultContainer.innerHTML = `<p>New paragraph</p>`;
 resultContainer.style.backgroundColor = "yellow";
+
+// Question 7
+
+function catList(list) {
+  for (let i = 0; i < list.length; i++) {
+    console.log(list[i].name);
+  }
+}
+
+catList(cats);
