@@ -11,3 +11,13 @@ const cats = [
     age: 21,
   },
 ];
+
+// Question 1
+
+const cat = complain;
+
+function complain() {
+  console.log("Meow!");
+}
+
+cat();
