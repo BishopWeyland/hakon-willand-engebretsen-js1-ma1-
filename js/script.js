@@ -14,13 +14,13 @@ const cats = [
 
 // Question 1
 
-const cat = complain;
+const cat = {
+  complain: () => {
+    console.log("Meow!");
+  },
+};
 
-function complain() {
-  console.log("Meow!");
-}
-
-cat();
+cat.complain();
 
 // Question 2
 
@@ -34,7 +34,7 @@ heading.style.fontSize = "2em";
 
 // Question 4
 
-heading.className = "subheading";
+heading.classList.add("subheading");
 
 // Question 5
 
@@ -74,9 +74,9 @@ function createCats(cats) {
     }
 
     html += `<div>
-    <h5>${cats[i].name}</h5>
-    <p>${catAge}</p>
-    </div>`;
+                <h5>${cats[i].name}</h5>
+                <p>${catAge}</p>
+             </div>`;
   }
   return html;
 }
